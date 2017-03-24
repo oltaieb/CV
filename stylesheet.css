@@ -1,0 +1,96 @@
+/* Feuille de style */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(104, 187, 255);
+}
+
+figure {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 3px dashed white;
+}
+
+
+/*******
+ID declaration
+********/
+
+#container {
+    width: 780px;
+    margin: 0 auto;
+}
+
+#header {
+    width: auto;
+    display: block;
+    height: 50px;
+    margin: 30px;
+}
+
+#main {
+    width: auto;
+    display: block;
+}
+
+#left-box {
+    width: 360px;
+    padding: 30px;
+    float: left;
+    background: rgb(9, 30, 45);
+    color: white;
+    transition: background 500ms;
+}
+
+#left-box:hover {
+    background: lightslategrey;
+}
+
+#right-box {
+    position: relative;
+    padding: 20px;
+    width: 400px;
+    float: left;
+    background: lightslategrey;
+    transition: background 500ms;
+}
+
+#right-box:hover {
+    background: yellow;
+}
+
+#experiences-box {
+    margin-top: 35px;
+}
+
+#studies-box {
+    margin-top: 80px;
+}
+
+#footer {
+    width: auto;
+    display: block;
+    height: 54px;
+    text-align: right;
+}
+
+
+/*
+div.spacer, permet de faire deux colonne dans #container
+*/
+
+div.spacer {
+    clear: both;
+    height: 10px;
+    display: block;
+}
